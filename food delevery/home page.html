@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      .container {
+        margin: 0px;
+        padding: 0px;
+        background-color: #edf2f4;
+        font-family: "Shadows Into Light", cursive;
+      }
+      /* NAV AREA */
+      .nav {
+        width: auto;
+        background-color: #ef233c;
+        width: 100%;
+        height: 200px;
+      }
+      .nav h1 {
+        position: relative;
+        text-align: center;
+        font-size: 40px;
+        color: black;
+        padding: 20px;
+        margin: auto;
+      }
+      .nav img {
+        position: absolute;
+      }
+      .nav .colo {
+        display: flex;
+        width: 100%;
+      }
+      .nav .colo a{
+          font-size: 20px;
+          color: rgb(239,35,60);
+          text-decoration: none; 
+      }
+      .nav .color {
+        width: auto;
+        height: 50px;
+        top: 52px;
+        left: 200px;
+        position: relative;
+      }
+      .colo .nav:hover {
+        background-color: burlywood;
+        border: none;
+      }
+      /* ABOUT SECTION STARTS HERE */
+      .about {
+        position: relative;
+      }
+      h1 {
+        position: absolute;
+        color: rgb(22, 22, 21);
+        padding-left: 35%;
+        margin-top: 10%;
+      }
+      .about-para {
+        text-align: center;
+        padding: 5%;
+        margin: 0;
+        background-color: rgb(249, 247, 242);
+      }
+
+      /* FOOTER STARST FROM HERE */
+      .footer {
+        width: 100%;
+        margin-top: 50px;
+        height: 500px;
+        background-color: #d90429;
+        color: white;
+      }
+      .footer img {
+        position: relative;
+        top: 30px;
+        margin: auto;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+      }
+      .footer img:hover {
+        transform: rotate(360deg);
+        transition: 3s;
+      }
+      .footer p {
+        margin: 80px;
+      }
+
+      .footer h3 {
+        justify-content: center;
+        margin: auto;
+        display: flex;
+      }
+      .work{
+        position: relative;
+      }
+      .work .work1{
+        padding: 30px;
+        color: rgb(215, 15, 100);
+      }
+      .para{
+        display: flex;
+        padding: 30px;
+        margin: auto;
+        justify-content: space-around;
+        color: rgb(215, 15, 100);
+      }
+      .para1{
+        display: flex;
+     justify-content: center;
+     align-items: center;
+     margin: auto;
+     text-align: center;
+        width: 500px;
+      }
+      .mission{
+        background-color:#d90429;
+        padding: 20px;
+        color: white;
+        margin: 0px;
+        margin-top: 30px;
+      }
+      @media only screen and (max-width:732px){
+          .nav .img{
+              display: none;
+              background-color: red;
+          }
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <!-- NAV BAR STARTS FROM HERE -->
+      <nav class="nav">
+        <img class="img"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuYS7W5e2t9sC6ctwGHPUxK32YzggL6D3wUg&usqp=CAU"
+          height="200px"
+          alt=""
+        />
+        <h1>FOOD PANDA</h1>
+        <div class="colo">
+          <button class="color main1"><a href="#">ABOUT</a></button>
+          <button class="color main2"><a href="#">CAREER</a></button>
+          <button class="color main3"><a href="#">PRESS</a></button>
+          <button class="color main4"><a href="#">ORDER</a></button>
+        </div>
+      </nav>
+      <!-- ABOUT SECTION  -->
+      <div class="about">
+        <h1>ALL ABOUT FOOD PANDA</h1>
+        <img
+          src="https://www.foodpanda.com/wp-content/uploads/2021/01/foodpanda-italian-blue-scaled.jpg"
+          class="about-img"
+          alt=""
+          width="100%"
+        />
+        <p class="about-para">
+          For us, it's not just about bringing you good food from your favourite
+          restaurants. It's about making a connection, which is why we sit down
+          with the chefs, dreaming up menus that will arrive fresh and full of
+          flavour. Try us!
+        </p>
+      </div>
+      <div class="work">
+        <h3 class="work1">HOW IT WORKS</h3>
+        <div class="para">
+          <p>ORDER</p>
+          <p>RELAX</p>
+          <p>ENJOY</p>
+        </div>
+        <p class="para1">Discover over 36,000 delicious restaurant worldwide and order their tasty meal right to you</p>
+      </div>
+      <div class="mission">
+        <h2>OUR MISSION</h2>
+      
+        <p>Bringing good food into your everyday. That's our mission.</p>
+
+     <p> That means we don't just deliver--we bring it, always going the extra mile to make your experience memorable.</p>
+
+       <p> And it means this is delicious food you can enjoy everyday: from vibrant salads for healthy office lunches, to indulgent family-sized pizzas, to fresh sushi for a romantic night in. Whatever you crave, we can help."</p>
+      
+      </div>
+
+
+      <!-- FOOTER STARTS HERE -->
+      <div class="footer">
+        <img
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuYS7W5e2t9sC6ctwGHPUxK32YzggL6D3wUg&usqp=CAU"
+          alt=""
+          height="100px"
+        />
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores
+          vitae voluptates unde officia odio. Tempora voluptatibus perferendis
+          ratione sunt ducimus officiis sit, saepe assumenda aperiam eius ex
+          obcaecati laborum voluptate alias id nam sint facere dolorem minus?
+          Deserunt temporibus accusamus magnam, iusto quia ipsa quam quos
+          maiores voluptatibus? Repellendus earum iste in incidunt nemo, dolorem
+          ducimus pariatur voluptatibus, nulla iusto exercitationem. A amet
+          aspernatur, suscipit alias dolorum laborum culpa commodi maxime vitae.
+          Unde velit quae ullam quos, in temporibus dignissimos maiores
+          architecto harum? Mollitia corporis incidunt quidem quas labore. Vel
+          in nesciunt quas cum necessitatibus voluptas recusandae illo ad amet!
+        </p>
+        <h3>CREATED BY :- Ankit Negi</h3>
+        <h3>&copy; 2022 - 2029</h3>
+      </div>
+    </div>
+  </body>
+</html>
